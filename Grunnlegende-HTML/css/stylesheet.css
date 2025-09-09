@@ -1,0 +1,39 @@
+/*Kommentarer*/
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+#mainlogo {
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 900;
+  color: #4d4a4d;
+  text-decoration: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+/*HOVEDINNHOLD*/
+
+article{
+    margin: 1rem;
+    border: 1px solid #efefef;
+    max-width: 400px;
+    width: 100%;
+    min-width: 250px;
+    padding: 1rem;
+
+    img{
+        width: 100%;
+    }
+}
+
+.btn{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
