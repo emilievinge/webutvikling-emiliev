@@ -1,19 +1,49 @@
 /*Kommentarer*/
 
+:root{
+  --basic-grey: #cdc6c6ef;
+  --basic-red: #710909;
+}
+
 body{
     font-family: Arial, Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+#global-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  nav{
+    ul{
+      padding:0;
+      margin:0;
+      li{
+        list-style: none;
+        display: inline-block;
+      }
+    }
+  }
 }
 
 #mainlogo {
   font-size: 30px;
   font-family: arial;
   font-weight: 900;
-  color: #4d4a4d;
+  color: #4b484b;
   text-decoration: none;
 }
 a{
   color: #000;
   text-decoration: none;
+}
+
+/*HERO-section*/
+
+.deal-section{
+  background-color:var(--basic-grey);
+  padding: 1rem;
 }
 
 /*HOVEDINNHOLD*/
@@ -36,4 +66,5 @@ article{
     background-color: #000;
     color: #fff;
     padding: 1rem;
+    border: none;
 }
