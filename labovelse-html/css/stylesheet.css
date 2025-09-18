@@ -44,7 +44,6 @@ body{
 main{
     padding: 1rem;
 }
-
 main article{
     font-size: 14px;
     border: 1px solid #000;
@@ -55,7 +54,21 @@ main article{
 aside{
     padding: 1rem;
 }
+aside a{
+    color: #000;
+    text-decoration: none;
+}
 
 footer{
+    padding: 1rem;
+    background-color: #333333;
+    color: #ffffff;
+}
+footer label{
+    display: block;
+}
+footer input{
+    display: block;
+    width: 100%;
     padding: 1rem;
 }
