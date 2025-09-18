@@ -8,25 +8,33 @@ body{
 }
 
 #global-header{
-    background-image: url('img/boller.jpg');
+    background-image: url(../img/himmel.jpg);
     background-size: cover;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
-    nav{
+#global-header nav{
         background-color: #ffffff;
-        border: 0.5px, #9f9f9f;
-        
-        ul{
-            li{
-                text-decoration: none;
-            }
-        }
-    }
+        border: 1px solid #9f9f9f;
+        margin: 10px
+}
+
+#global-header nav ul{
+    list-style: none;
+}
+
+#global-header nav ul li a{
+    text-decoration: none;
+    color: #000;
 }
 
 #main-logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
     text-transform: uppercase;
-    }
+    text-decoration: none;
+}
