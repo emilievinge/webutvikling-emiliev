@@ -21,7 +21,7 @@ body{
         ul{
             list-style: none;
             padding-left: 10px;
-            li a{
+            a{
                 display: block;
                 padding: 3px;
                 text-decoration: none;
@@ -43,32 +43,35 @@ body{
 
 main{
     padding: 1rem;
-}
-main article{
+    
+    article{
     font-size: 14px;
     border: 1px solid #000;
     padding: 3px 10px;
     margin: 10px;
+    }
 }
 
 aside{
     padding: 1rem;
-}
-aside a{
+
+    a{
     color: #000;
     text-decoration: none;
+    }
 }
 
 footer{
     padding: 1rem;
     background-color: #333333;
     color: #ffffff;
-}
-footer label{
-    display: block;
-}
-footer input{
-    display: block;
-    width: 100%;
-    padding: 1rem;
+        label{
+        display: block;
+    
+        input{
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        }
+    }
 }
