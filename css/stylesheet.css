@@ -15,21 +15,21 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    nav{
+}
+#global-header nav{
         background-color: #ffffff;
         border: 1px solid #9f9f9f;
-        ul{
+        }
+#global-header ul{
             list-style: none;
             padding-left: 10px;
-            li a{
+            }
+#global-header nav ul li a{
                 display: block;
                 padding: 3px;
                 text-decoration: none;
                 color: #000;
             }
-        }
-    }
-}
 
 #main-logo{
     display: block;
