@@ -1,0 +1,18 @@
+h3{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    article{
+        background-color: #d77e70;
+        margin: 5px;
+        padding: 1rem;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
