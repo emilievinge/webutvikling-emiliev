@@ -65,7 +65,7 @@
 </head>
 <body>
     <!--Oppgave: Fyll siden med fornuftig microdata, med riktig markering er det også flere elementer som registreres som rich results i google, husk å test og validerer i både validatoren og rich result -->
-    <header id="page-header">
+    <header id="page-header" itemscope itemtype="https://schema.org/ItemList https://schema.org/Book https://schema.org/CreativeWork">
         <nav class="container">
             <h3>Logo</h3>
             <form>
@@ -91,7 +91,7 @@
                     <header>
                         <h2>Tower of the Swallow</h2><span>- pocket, Engelsk, 2020</span>
                     </header>
-                    <span>Forfatter: Andrzej Sapkowski</span>
+                    <span itemprop="author">Forfatter: Andrzej Sapkowski</span>
                     <span id="price"></span>
                     <form>
                         <fieldset>
@@ -124,7 +124,7 @@
                                 <td>Forlag: Orion</td>
                             </tr>
                             <tr>
-                                <td colspan="2">Antall sider: 464</td>
+                                <td colspan="2" value="464" itemprop="numberOfPages">Antall sider: 464</td>
                             </tr>
                         </table>
                     </article>
